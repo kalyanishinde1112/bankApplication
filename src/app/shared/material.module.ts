@@ -9,6 +9,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatList, MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 const materialComponents = [
   MatToolbarModule,
@@ -20,10 +24,20 @@ const materialComponents = [
   MatButtonModule,
   MatInputModule,
   MatListModule,
+  MatTableModule,
+  MatCheckboxModule,
+  MatButtonModule,
+  MatInputModule,
+  MatFormFieldModule,
+  MatCardModule,
+  MatChipsModule,
+   MatProgressBarModule
+  
 ];
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [ CommonModule],
   exports: [materialComponents]
 })
